@@ -22,7 +22,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 set number
-syntax on
+"syntax on
 
 set ts=2
 "set expandtab
@@ -39,6 +39,8 @@ let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_structs = 1
 let g:go_highlight_operators = 1
+"ycm自动补全后,关闭split window
+let g:ycm_autoclose_preview_window_after_insertion = 1
 
 
 syntax enable  
